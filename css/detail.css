@@ -1,0 +1,26 @@
+.detail {
+  text-align: center;
+  max-width: 265px;
+  margin: auto; }
+  .detail .spotify-icon {
+    width: 265px;
+    height: 265px;
+    background: url(../assets/img/spotify.jpg) no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .detail .progress-bar {
+    width: 265px;
+    height: 29px;
+    margin: 15px 0 10px 0;
+    background: url(../assets/img/progress-bar.png) no-repeat;
+    background-size: contain; }
+  .detail .artist-info {
+    text-transform: capitalize; }
+    .detail .artist-info .artist-name {
+      margin: 0; }
+  .detail .song-player {
+    font-size: 40px; }
+    .detail .song-player span.glyphicon {
+      cursor: pointer; }
+
+/*# sourceMappingURL=detail.css.map */

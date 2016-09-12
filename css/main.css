@@ -1,0 +1,189 @@
+@font-face {
+  font-family: DINMedium;
+  src: url("../assets/fonts/DIN Medium.ttf"); }
+@font-face {
+  font-family: SameSameButDifferent;
+  src: url("../assets/fonts/SameSameButDifferent.ttf"); }
+@font-face {
+  font-family: TitilliumText22L001;
+  src: url("../assets/fonts/TitilliumText22L001.otf"); }
+header {
+  margin: 50px auto;
+  max-width: 500px; }
+  header .logo {
+    float: left;
+    background: url(../assets/img/logo.png) no-repeat;
+    width: 54px;
+    height: 54px; }
+  header h1 {
+    float: right;
+    position: relative;
+    top: 8px;
+    font-weight: bold;
+    margin: 0; }
+
+.login {
+  text-align: center;
+  margin-bottom: 100px; }
+  .login h2 {
+    font-weight: bold;
+    margin-bottom: 40px; }
+  .login .email, .login .password {
+    margin: auto;
+    width: 250px;
+    color: #ffffff;
+    background-color: #636567;
+    border-radius: 0;
+    border-color: transparent; }
+  .login .password {
+    margin-top: 15px; }
+  .login .form-bottom {
+    margin: 15px auto;
+    font-size: 12px;
+    width: 250px; }
+    .login .form-bottom label {
+      float: left;
+      font-weight: initial;
+      padding-left: 7px; }
+      .login .form-bottom label input[type=checkbox] {
+        transform: scale(1.5);
+        vertical-align: bottom;
+        position: relative;
+        top: -1px;
+        right: 4px;
+        overflow: hidden; }
+    .login .form-bottom a {
+      float: right;
+      color: #ffffff; }
+  .login .submit-login {
+    background-color: #4dc4d3;
+    border-color: #4dc4d3;
+    color: #ffffff;
+    width: 250px;
+    border-radius: 20px; }
+  .login .social {
+    width: 250px;
+    margin: 25px auto; }
+    .login .social .twitter, .login .social .facebook {
+      display: inline-block;
+      margin-top: 25px;
+      width: 58px;
+      height: 58px;
+      background: url(../assets/img/twitter.png) no-repeat; }
+    .login .social .facebook {
+      margin-left: 15px;
+      background: url(../assets/img/facebook.png) no-repeat; }
+
+.songs {
+  text-align: center;
+  max-width: 400px;
+  margin: auto; }
+  .songs .search-bar {
+    background: url(../assets/img/search-icon.png) no-repeat scroll 95% 50%;
+    background-color: #35383c;
+    border-color: transparent;
+    border-radius: 30px;
+    color: #ffffff; }
+  .songs .songs-list {
+    margin-top: 50px; }
+    .songs .songs-list > .row:nth-child(odd) {
+      background-color: #8f9192; }
+    .songs .songs-list > .row:nth-child(even) {
+      background-color: #636567; }
+  .songs .row {
+    height: 50px;
+    padding-top: 6px;
+    width: 400px;
+    margin: 0 auto 2px; }
+  .songs .play-icon {
+    height: 36px;
+    width: 36px;
+    margin: 0 10px;
+    cursor: pointer;
+    background: url(../assets/img/play-icon.png) no-repeat; }
+  .songs .artist-info {
+    text-align: left;
+    padding-left: 0; }
+    .songs .artist-info a {
+      display: table;
+      cursor: pointer;
+      color: #ffffff;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden; }
+    .songs .artist-info .song-title {
+      font-size: 14px;
+      font-weight: bold; }
+    .songs .artist-info .artist-name {
+      font-size: 11px; }
+  .songs .btn {
+    background-color: #51ccdc;
+    color: #000000;
+    font-weight: bold; }
+    .songs .btn:hover {
+      background-color: #4dc0ce;
+      color: #000000; }
+  .songs .today-button {
+    border-radius: 10px 0 0 10px; }
+  .songs .friday-button {
+    margin-left: -4px;
+    border-radius: 0 10px 10px 0; }
+  .songs .active {
+    background-color: #4dc0ce; }
+  .songs .unactive {
+    background-color: #51ccdc; }
+
+.detail {
+  text-align: center;
+  max-width: 265px;
+  margin: auto; }
+  .detail .spotify-icon {
+    width: 265px;
+    height: 265px;
+    background: url(../assets/img/spotify.jpg) no-repeat;
+    background-position: center;
+    background-size: contain; }
+  .detail .progress-bar {
+    width: 265px;
+    height: 29px;
+    margin: 15px 0 10px 0;
+    background: url(../assets/img/progress-bar.png) no-repeat;
+    background-size: contain; }
+  .detail .artist-info {
+    text-transform: capitalize; }
+    .detail .artist-info .artist-name {
+      margin: 0; }
+  .detail .song-player {
+    font-size: 40px; }
+    .detail .song-player span.glyphicon {
+      cursor: pointer; }
+
+footer {
+  max-width: 500px;
+  margin: 30px auto;
+  font-size: 10px;
+  background-color: #1f2022; }
+  footer span {
+    float: left; }
+  footer ul {
+    display: inline-block;
+    float: right; }
+    footer ul a {
+      color: #ffffff;
+      cursor: pointer; }
+      footer ul a:hover {
+        color: #ffffff; }
+
+body {
+  margin: 0 20%;
+  background-color: #1f2225;
+  font-family: "DINMedium";
+  color: #ffffff; }
+
+.content {
+  min-height: 600px; }
+
+.clearfix {
+  overflow: hidden; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,13 @@
+<div class="detail" ng-controller="DetailController">
+	<div class="spotify-icon"></div>
+	<div class="progress-bar"></div>
+	<div class="artist-info">
+		<p class="artist-name">{{songdetails[0].artistname}}</p>
+		<p class="song-title">{{songdetails[0].songname}}</p>
+	</div>
+	<div class="song-player">
+		<span class="glyphicon glyphicon-step-backward" aria-hidden="true"></span>
+		<span class="glyphicon" aria-hidden="true" ng-class="player" ng-click="changePlayer();"></span>
+		<span class="glyphicon glyphicon-step-forward" aria-hidden="true"></span>
+	</div>
+</div>

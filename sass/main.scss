@@ -1,0 +1,22 @@
+@import "variables.scss";
+@import "fonts.scss";
+@import "header.scss";
+@import "login.scss";
+@import "songs.scss";
+@import "detail.scss";
+@import "footer.scss";
+
+body{
+	margin: 0 20%;
+	background-color: $main-background-color;
+	font-family: "DINMedium";
+	color: $white;
+}
+
+.content{
+	min-height: 600px;
+}
+
+.clearfix {
+	overflow: hidden;
+}

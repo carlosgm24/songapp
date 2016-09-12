@@ -1,0 +1,22 @@
+<div class="login" ng-controller="LoginController">
+	<h2>Login</h2>
+
+	<form name="LoginForm" ng-submit="submit()">
+		<input type="text" name="email" ng-model="model1" class="form-control email" ng-pattern="regexEmail" placeholder="Email" required>
+		<span class="error-email ng-hide">Not a valid email!</span>
+		<input type="password" name="password" ng-model="model2" class="form-control password" ng-pattern="regexPass" placeholder="Password" required>
+		<span class="error-pass ng-hide">Not a valid password!(8-24 char, 1 number and !-_#.+=*%$@ allowed)</span>
+		<div class="form-bottom clearfix">
+			<label><input type="checkbox" /> Remember Me</label>
+			<a href="#">Forgot your password?</a>
+		</div>
+		<input type="submit" class="btn btn-default submit-login" value="LOGIN"></input>
+	</form>
+
+
+	<div class="social">
+		Or sign in with a social account
+		<div class="twitter"></div>
+		<div class="facebook"></div>
+	</div>
+</div>

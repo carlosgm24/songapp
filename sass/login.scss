@@ -1,0 +1,73 @@
+.login{
+	text-align: center;
+	margin-bottom: 100px;
+
+	h2{
+		font-weight: bold;
+		margin-bottom: 40px;
+	}
+
+	.email, .password{
+		margin: auto;
+    	width: 250px;
+    	color: $white;
+    	background-color: $dark-gray;
+    	border-radius: 0;
+    	border-color: transparent;
+	}
+
+	.password{
+		margin-top: 15px;
+	}
+
+	.form-bottom{
+		margin: 15px auto;
+    	font-size: 12px;
+    	width: 250px;
+
+    	label{
+			float: left;
+			font-weight: initial;
+			padding-left: 7px;
+
+    		input[type=checkbox]{
+				transform: scale(1.5);
+				vertical-align: bottom;
+			    position: relative;
+			    top: -1px;
+			    right: 4px;
+			    overflow: hidden;
+			}
+    	}
+
+		a{
+			float: right;
+			color: $white;
+		}
+	}
+
+	.submit-login{
+		background-color: #4dc4d3;
+	    border-color: $light-blue;
+	    color: $white;
+	    width: 250px;
+	    border-radius: 20px;
+	}
+
+	.social{
+		width: 250px;
+	    margin: 25px auto;
+
+		.twitter, .facebook{
+		    display: inline-block;
+		    margin-top: 25px;
+	    	width: 58px;
+	    	height: 58px;
+	    	background: url(../assets/img/twitter.png) no-repeat;
+		}
+		.facebook{
+			margin-left: 15px;
+	    	background: url(../assets/img/facebook.png) no-repeat;
+		}
+	}
+}

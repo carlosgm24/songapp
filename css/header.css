@@ -1,0 +1,16 @@
+header {
+  margin: 50px auto;
+  max-width: 500px; }
+  header .logo {
+    float: left;
+    background: url(../assets/img/logo.png) no-repeat;
+    width: 54px;
+    height: 54px; }
+  header h1 {
+    float: right;
+    position: relative;
+    top: 8px;
+    font-weight: bold;
+    margin: 0; }
+
+/*# sourceMappingURL=header.css.map */

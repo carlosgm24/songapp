@@ -1,0 +1,90 @@
+.songs{
+	text-align: center;
+    max-width: 400px;
+    margin: auto;
+	
+	.search-bar{
+		background: url(../assets/img/search-icon.png) no-repeat scroll 95% 50%;
+		background-color: $search-bar;
+    	border-color: transparent;
+    	border-radius: 30px;
+    	color: $white;
+	}
+
+	.songs-list{
+		margin-top: 50px;
+
+		&>.row:nth-child(odd) {
+			background-color: $row-strip-1;
+		}
+
+		&>.row:nth-child(even) {
+			background-color: $row-strip-2;
+		}
+	}
+
+	.row{
+		height: 50px;
+		padding-top: 6px;
+		width: 400px;
+    	margin: 0 auto 2px;
+	}
+
+	.play-icon{
+		height: 36px;
+	    width: 36px;
+	    margin: 0 10px;
+	    cursor: pointer;
+		background: url(../assets/img/play-icon.png) no-repeat;
+	}
+
+	.artist-info{
+		text-align: left;
+		padding-left: 0;
+
+		a{
+			display: table;
+			cursor: pointer;
+    		color: $white;
+    		text-overflow: ellipsis;
+		    white-space: nowrap;
+		    overflow: hidden
+		}
+
+		.song-title{
+			font-size: 14px;
+			font-weight: bold;
+		}
+		.artist-name{
+			font-size: 11px;
+		}
+	}
+
+	.btn{
+		background-color: $list-button;
+		color: $black;
+		font-weight: bold;
+
+		&:hover{
+			background-color: $list-button-active;
+			color: $black;
+		}
+	}
+
+	.today-button{
+    	border-radius: 10px 0 0 10px;
+	}
+
+	.friday-button{
+		margin-left: -4px;
+    	border-radius: 0 10px 10px 0;
+	}
+
+	.active{
+		background-color: $list-button-active;
+	}
+
+	.unactive{
+		background-color: $list-button;
+	}
+}

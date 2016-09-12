@@ -1,0 +1,17 @@
+<div class="songs" ng-controller="SongsController">
+	<input type="text" class="form-control search-bar" ng-model="searchKeyword" placeholder="Search Music">
+	<div class="songs-list">
+		<div class="row" ng-repeat="song in allsongs | filter: searchKeyword">
+	    	<a class="col-xs-2 col-sm-2 play-icon" href="#/detail/{{song.songname}}">
+			</a>
+		    <div class="col-xs-5 col-sm-5 artist-info">
+		        <a class="song-title" href="#/detail/{{song.songname}}">{{song.songname}}</a>
+		      	<a class="artist-name" href="#/detail/{{song.songname}}">{{song.artistname}}</a>
+		    </div>
+		    <div class="col-xs-5 col-sm-5">
+		      	<button type="button" class="btn today-button" ng-class="{active: today}" ng-click="today=true; friday=false;">Today</button>
+		      	<button type="button" class="btn friday-button" ng-class="{active: friday}" ng-click="today=false; friday=true;">Friday</button>
+		    </div>
+		</div>
+	</div>
+</div>
