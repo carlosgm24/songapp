@@ -8,6 +8,7 @@
 		background-color: $search-bar;
     	border-color: transparent;
     	border-radius: 30px;
+    	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     	color: $white;
 	}
 
@@ -41,22 +42,15 @@
 	.artist-info{
 		text-align: left;
 		padding-left: 0;
+		text-transform: capitalize;
 
 		a{
-			display: table;
+			display: block;
 			cursor: pointer;
     		color: $white;
     		text-overflow: ellipsis;
 		    white-space: nowrap;
-		    overflow: hidden
-		}
-
-		.song-title{
-			font-size: 14px;
-			font-weight: bold;
-		}
-		.artist-name{
-			font-size: 11px;
+		    overflow: hidden;
 		}
 	}
 
@@ -69,6 +63,14 @@
 			background-color: $list-button-active;
 			color: $black;
 		}
+	}
+
+	.right-buttons{
+		padding-right: 0;
+	}
+
+	.today-button, .friday-button{
+		font-family: "TitilliumText22L001";
 	}
 
 	.today-button{

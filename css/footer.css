@@ -7,11 +7,11 @@ Error: Undefined variable: "$footer-background-color".
 3: 	margin: 30px auto;
 4: 	font-size: 10px;
 5: 	background-color: $footer-background-color;
-6: 
-7: 	span{
-8: 		float: left;
-9: 	}
-10: 
+6: 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+7: 
+8: 	span{
+9: 		float: left;
+10: 	}
 
 Backtrace:
 sass/footer.scss:5
@@ -64,4 +64,4 @@ C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$footer-background-color\".\A         on line 5 of sass/footer.scss\A \A 1: footer{\A 2: 	max-width: 500px;\A 3: 	margin: 30px auto;\A 4: 	font-size: 10px;\A 5: 	background-color: $footer-background-color;\A 6: \A 7: 	span{\A 8: 		float: left;\A 9: 	}\A 10: "; }
+  content: "Error: Undefined variable: \"$footer-background-color\".\A         on line 5 of sass/footer.scss\A \A 1: footer{\A 2: 	max-width: 500px;\A 3: 	margin: 30px auto;\A 4: 	font-size: 10px;\A 5: 	background-color: $footer-background-color;\A 6: 	font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;\A 7: \A 8: 	span{\A 9: 		float: left;\A 10: 	}"; }

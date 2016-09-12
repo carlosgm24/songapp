@@ -10,9 +10,9 @@ Error: Undefined variable: "$search-bar".
 8: 		background-color: $search-bar;
 9:     	border-color: transparent;
 10:     	border-radius: 30px;
-11:     	color: $white;
-12: 	}
-13: 
+11:     	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+12:     	color: $white;
+13: 	}
 
 Backtrace:
 sass/songs.scss:8
@@ -76,4 +76,4 @@ C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$search-bar\".\A         on line 8 of sass/songs.scss\A \A 3:     max-width: 400px;\A 4:     margin: auto;\A 5: 	\A 6: 	.search-bar{\A 7: 		background: url(../assets/img/search-icon.png) no-repeat scroll 95% 50%;\A 8: 		background-color: $search-bar;\A 9:     	border-color: transparent;\A 10:     	border-radius: 30px;\A 11:     	color: $white;\A 12: 	}\A 13: "; }
+  content: "Error: Undefined variable: \"$search-bar\".\A         on line 8 of sass/songs.scss\A \A 3:     max-width: 400px;\A 4:     margin: auto;\A 5: 	\A 6: 	.search-bar{\A 7: 		background: url(../assets/img/search-icon.png) no-repeat scroll 95% 50%;\A 8: 		background-color: $search-bar;\A 9:     	border-color: transparent;\A 10:     	border-radius: 30px;\A 11:     	font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;\A 12:     	color: $white;\A 13: 	}"; }
