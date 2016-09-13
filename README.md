@@ -5,5 +5,5 @@ I recommend using this chrome extension (https://chrome.google.com/webstore/deta
 
 Before starting:
 * Run 'npm install' in the project root.
-* Initialize the json-server with json-server --watch db/songs.json in the project root.
+* Initialize the json-server with 'json-server --watch db/songs.json' in the project root.
 * Open the project with the extension or with any other method of preference.
