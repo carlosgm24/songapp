@@ -1,5 +1,6 @@
 @import "variables.scss";
 @import "fonts.scss";
+@import "top-menu.scss";
 @import "header.scss";
 @import "login.scss";
 @import "songs.scss";
@@ -7,14 +8,13 @@
 @import "footer.scss";
 
 body{
-	margin: 0 20%;
 	background-color: $main-background-color;
 	font-family: "DINMedium";
 	color: $white;
 }
 
 .content{
-	min-height: 600px;
+	min-height: 400px;
 }
 
 .clearfix {
@@ -29,4 +29,10 @@ body{
 .artist-name{
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 11px;
+}
+
+@media screen and (min-width: 768px) {
+    .content{
+		min-height: 600px;
+	}
 }

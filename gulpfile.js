@@ -24,7 +24,7 @@ gulp.task('build-css', function() {
         .pipe(livereload());
 });
 
-//Script concat
+//Scripts concat
 gulp.task('build-js', function() {
   return gulp.src(['./js/*.js', './js/services/*.js', './js/controllers/*.js',  
                    './js/directives/*.js'])
