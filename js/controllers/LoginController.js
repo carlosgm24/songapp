@@ -17,8 +17,8 @@
 		}
 
 		$scope.submit = function() {
-			var loggedin = true;
-			var email = $('.email').val();
+			var loggedin = true,
+			    email = $('.email').val();
 			
 			$('span.error-email, span.error-pass').addClass('ng-hide');
 
